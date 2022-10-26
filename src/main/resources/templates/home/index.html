@@ -1,0 +1,23 @@
+<!--Essa conotacao :: quer dizer que ele so vai implementar a tag que tiver esse fragmento topo-->
+<div th:replace="home/compartilhado/topo"
+     xmlns:th="http://www.w3.org/1999/xhtml">...</div>
+                <!-- Begin Page Content -->
+                <!DOCTYPE>
+                <html lang="pt-BR">
+                <div class="container-fluid">
+
+                    <!-- Page Heading -->
+                    <div class="d-sm-flex align-items-center justify-content-between mb-4" xmlns:th="http://www.w3.org/1999/xhtml">
+                        <h1 class="h3 mb-0 text-gray-800"> Bem vindo - <span th:text="${nome}" ></span> </h1>
+
+                    </div>
+
+
+                </div>
+                </html>
+            <!-- End of Main Content -->
+<div th:replace="home/compartilhado/baixo" xmlns:th="http://www.w3.org/1999/xhtml">...</div>
+
+</body>
+
+</html>
